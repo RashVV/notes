@@ -10,7 +10,7 @@ export const Form = () => {
         event.preventDefault()
         if (value.trim()){
             // ...
-            alert.show('Заметка была создана', 'success')
+            alert.show('Заметка была успешно создана', 'success')
             setValue('')
         } else {
             alert.show('Нет Заметки')

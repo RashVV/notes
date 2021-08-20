@@ -13,14 +13,14 @@ export const Navbar = () =>(
            to="/" 
            exact
            >
-               Главная
+               Главная страница
            </NavLink>
         </li>
         <li className="nav-item">
         <NavLink
            className="nav-link" 
            to="/about"
-           >Информация</NavLink> 
+           >Страница Информация</NavLink> 
         </li>  
      </ul>
      </nav>
